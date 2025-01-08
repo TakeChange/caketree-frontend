@@ -1,0 +1,26 @@
+.carousel-inner {
+    position: relative;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+  }
+  
+  .carousel-caption h5, .carousel-caption p {
+    margin: 0;
+  }
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #000;
+  }
+  

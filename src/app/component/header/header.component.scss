@@ -1,0 +1,62 @@
+.nvstyle {
+    background-color: #ffeadb;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+    .navbar-brand {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.8rem;
+      color: #5a382a;
+      font-weight: bold;
+  
+      &:hover {
+        text-decoration: none;
+        color: #d9534f;
+      }
+    }
+  
+    .navbar-nav {
+      .nav-link {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        color: #5a382a;
+        transition: color 0.3s;
+  
+        &:hover {
+          color: #d9534f;
+          text-decoration: underline;
+        }
+  
+        &.active {
+          font-weight: bold;
+          color: #d9534f;
+        }
+      }
+    }
+  
+    .btn {
+      border: 2px solid #d9534f;
+      background-color: #ffeadb;
+      color: #d9534f;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1rem;
+      transition: all 0.3s;
+  
+      &:hover {
+        background-color: #d9534f;
+        color: #fff;
+      }
+    }
+  }
+  
+  .header-section {
+    position: relative;
+    text-align: center;
+  
+    .header-image {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-bottom: 5px solid #d9534f;
+    }
+  }
+  

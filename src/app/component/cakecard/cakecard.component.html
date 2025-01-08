@@ -1,0 +1,18 @@
+<div class="custom-card shadow-lg mt-4">
+  <img 
+    [src]="ME?.image" 
+    class="custom-card-img-top" 
+    alt="Cake Image">
+  <div class="custom-card-body text-center">
+    <h5 class="custom-card-title">
+      {{ ME?.title.length > 20 ? (ME?.title.substring(0, 20) + '...') : ME?.title }}
+    </h5>
+    <p class="custom-card-text">
+      <strong>Price:</strong> ₹{{ ME?.price }} | <strong>Weight:</strong> {{ ME?.weight }}
+    </p>
+    <p class="custom-card-description">
+      {{ ME?.description.length > 50 ? (ME?.description.substring(0, 55) + '...') : ME?.description }}
+    </p>
+    <a href="#" class="custom-card-btn">Add to Box</a>
+  </div>
+</div>
